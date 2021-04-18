@@ -35,5 +35,22 @@ for (var i = 1 ; i <= systemnumber; i++)
  document.write(image4);}
 
 
+ var ask0 = prompt('Do you like our site ? ');
+ while (ask0 !=='yes'){ask0 = prompt('Do you like our site ? ')}
+response();
 
- 
+var ask1 = prompt('Do you like our service ? ');
+while (ask1 !=='yes'){ask1 = prompt('Do you like our site ? ')}
+response();
+
+function response(){
+  alert('great')
+}
+var ask2 = function(connecting){
+  var a = prompt('Do you want '+ connecting + ' system?');
+  return ask2;
+
+}
+
+ ask2('ongrid');
+ ask2('offgrid');
