@@ -7,12 +7,30 @@ var username = prompt ('please type your name')
  
  document.write('welcome to our site '+ username)
  
- var usertype = prompt('please choose type of energy you want (solar or wind)') 
-while(usertype !== 'solar' && usertype !=='wind'){
-  usertype = prompt('please choose type of energy you want (solar or wind)');
-}
+ var usertype = prompt('Do you want solar') 
 
-var systemnumber = prompt('please type system number')
+
+ 
+response();
+
+
+
+function response(){
+  alert('great')
+}
+var ask1 =  prompt('Do you want wind')
+response();
+
+
+function systemnumber(capacity){
+
+var systemnumber = prompt(' '+ capacity + '?');}
+
+systemnumber('more than 10 KW ');
+systemnumber('less than 10 KW')
+
+
+
 
 for (var i = 1 ; i <= systemnumber; i++)
  {
@@ -34,23 +52,3 @@ for (var i = 1 ; i <= systemnumber; i++)
  {var image4 ='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6y1aNXQkYcwLaU4hz-Nb-TIBlQ8JAtq-dxQ&usqp=CAU.jpg" alt="p" />';
  document.write(image4);}
 
-
- var ask0 = prompt('Do you like our site ? ');
- while (ask0 !=='yes'){ask0 = prompt('Do you like our site ? ')}
-response();
-
-var ask1 = prompt('Do you like our service ? ');
-while (ask1 !=='yes'){ask1 = prompt('Do you like our site ? ')}
-response();
-
-function response(){
-  alert('great')
-}
-var ask2 = function(connecting){
-  var a = prompt('Do you want '+ connecting + ' system?');
-  return ask2;
-
-}
-
- ask2('ongrid');
- ask2('offgrid');
