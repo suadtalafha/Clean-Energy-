@@ -3,3 +3,18 @@ header{
 }
 body{ background-color: lightblue}
 
+img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-block-end-color: yellow
+}
+
+nav ul li {
+  border : 1px solid red
+  width : 100px;
+  display : inline-block;
+}
+ 
+
