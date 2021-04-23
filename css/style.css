@@ -1,5 +1,55 @@
 header{
-  background-color: rgb(23, 145, 185);
-}
-body{ background-color: lightblue}
+  background-color: rgb(193, 235, 203);
 
+   font-family: "Sofia", sans-serif;
+}
+body{ background-image: url("https://www.thinkgeoenergy.com/wp-content/uploads/2019/08/ClimateChange_lightbulb-1024x683.jpeg");
+
+background-attachment: fixed;
+
+
+}
+
+img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-block-end-color: green}
+
+ 
+ a{
+   text-decoration: none;
+   border-style: dotted solid;
+   background-color: lightgrey;
+   border-width: medium;
+   border-color:  red green blue yellow;;
+    border-radius: 5px
+   margin: 50px; 
+    
+  
+   
+ }
+
+nav ul li {
+  
+  border : 1px solid rgb(53, 47, 47)
+  width : 100px;
+  display : block;
+
+
+}
+ 
+p{ 
+  outline-color:rgb(154, 209, 25);
+  outline-style: ridge;
+    outline-offset: 10px;
+    color: rgb(5, 54, 5);
+
+     text-align: center;
+       text-transform: capitalize;
+  text-shadow: 2px 2px 5px red;
+   font-weight: bold;
+   
+}
+ 
