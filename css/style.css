@@ -46,6 +46,7 @@ p{
     outline-offset: 10px;
     color: rgb(5, 54, 5);
 
+<<<<<<< HEAD
      text-align: center;
        text-transform: capitalize;
   text-shadow: 2px 2px 5px red;
@@ -53,3 +54,20 @@ p{
    
 }
  
+=======
+img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-block-end-color: yellow
+}
+
+nav ul li {
+  border : 1px solid red
+  width : 100px;
+  display : inline-block;
+}
+ 
+
+>>>>>>> f5ee0848a899eb8fa4a501c58d9e73280b1bc827
